@@ -21,3 +21,20 @@ document.querySelector("#user-icon").onclick = () =>{
     cart.classList.remove("active");
     search.classList.remove("active");
 }
+
+var swiper = new Swiper(".new-arrival", {
+    spaceBetween: 20,
+    centeredSlides: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
