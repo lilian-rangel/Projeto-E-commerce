@@ -306,3 +306,45 @@ header{
     top: 0;
     transition: 0.2s;
 }
+
+.produto-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.produto-container .box{
+    position: relative;
+    padding: 10px;
+    box-shadow: var(--box-shadow);
+}
+
+.produto-container .box .content h2{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.produto-container .box .content .stars .bx{
+    color: var(--main-color);
+}
+
+.produto-container .box .bx-cart-alt{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    font-size: 24px;
+    background: var(--main-color);
+    color: var(--bg-color);
+}
+
+.produto-container .box .bx-cart-alt:hover{
+    background: var(--text-color);
+}
+
+.produto-container .box:hover img{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    transition: 0.5s;
+}
