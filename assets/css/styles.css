@@ -271,13 +271,6 @@ header{
     clip-path: polygon(100% 0, 93% 50%, 86% 99%, 0% 100%, 7% 47%, 13% 0%);
 }
 
-.new{
-    width: 50%;
-    min-height: 80vh;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-}
 
 .new-arrival{
     margin-top: 2rem;
