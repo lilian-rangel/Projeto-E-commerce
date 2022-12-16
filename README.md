@@ -31,12 +31,12 @@ Com esse projeto aprendi sobre scroll-behavior, clip-path, transform scaleX e wi
 <hr>
 <h2 align="center">Demo desktop</h2>
 <p align="center">
-<img width="470" src="assets/img/desktop">
+<img width="470" src="assets/img/desktop.gif">
 </p>
 <hr>
 <h2 align="center">Demo Responsivo para mobile</h2>
 <p align="center">
-<img width="470" src="assets/img/mobile">
+<img width="470" src="assets/img/mobile.gif">
 </p>
 
 <hr>
