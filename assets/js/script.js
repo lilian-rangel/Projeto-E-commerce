@@ -22,6 +22,8 @@ document.querySelector("#user-icon").onclick = () =>{
     search.classList.remove("active");
 }
 
+
+
 var swiper = new Swiper(".new-arrival", {
     spaceBetween: 20,
     loop: true,
