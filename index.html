@@ -67,8 +67,8 @@
         <!-- User-->
         <div class="user">
             <h2>Login</h2>
-            <input type="email" name="email" id="email" placeholder="E-mail">
-            <input type="password" name="password" id="password" placeholder="Senha">
+            <input type="email" name="email" id="email" data-tipo="email" pattern="[a-z0-9.]+@[a-z0-9]+\.[a-z]+(\.[a-z]+)?" placeholder="E-mail" required />
+            <input type="password" name="password" id="password" placeholder="Senha" required />
             <input type="submit" value="Login" class="login-btn">
             <p>Esqueceu a senha? <a href="#">Redefinir senha</a></p>
             <p>Ainda não tem conta? <a href="#">Registre-se</a></p>
